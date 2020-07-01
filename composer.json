@@ -1,0 +1,40 @@
+{
+    "name": "dazzlesoftware/twitter",
+    "type": "library",
+    "description": "Dazzle Twitter Package",
+    "keywords": ["dazzle", "framework", "twitter"],
+    "homepage": "https://github.com/dazzle-framework/twitter-api",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0",
+        "dazzlesoftware/oauth1": "^1.0",
+        "dazzlesoftware/input": "^1.0",
+        "dazzlesoftware/http": "^1.0",
+        "dazzlesoftware/uri": "^1.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/test": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "suggest": {
+        "dazzlesoftware/registry": "Registry can be used as an alternative to using an array for the package options."
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Twitter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Twitter\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
+
